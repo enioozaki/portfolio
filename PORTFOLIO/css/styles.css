@@ -1,0 +1,273 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+body {
+    font-family: Roboto;
+    font-size: 12px;
+    color: #424242;
+}
+  
+h1, h2, h3, h4, h5 {
+    margin: 0; 
+}
+
+p {
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+header, nav, footer, section, article, div {
+    box-sizing: border-box;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.header_logo_container {
+    margin: 12px 12px 0 24px;
+    display: inline-block;
+}
+
+.header_logo {
+    height: 70px;
+}
+
+.header_title {
+    font-size: 1.3em;
+    margin: 0.75em 0.25em 0 8em;
+    display: inline-block;
+    color: #212121;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    margin: 5px;
+}
+
+.main_container {
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+
+.central_image {
+    width: 100%;
+    text-align: center;
+    margin: -40px 0 0 0;
+}
+
+.main_text {
+    height: 70px;
+}
+
+.news_line {
+    width: 100%;
+}
+
+.news_item {
+    width: 33%;
+    display: inline-block;
+}
+
+.news_image {
+    width: 100%;
+    display: block;
+}
+
+.news_header {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+@media screen and (max-width: 399px) {
+
+    .header_logo {
+        height: 50px;
+    }
+
+    .header_title {
+        font-size: 0.8em;
+        margin: 0.5em 0.25em 0 2em;
+        display: inline-block;
+        color: #212121;
+        text-align: center;
+    }
+
+    .main_container {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .central_image {
+        width: 100%;
+        text-align: center;
+        margin: -20px 0 -10px 0;
+    }
+
+    .news_item {
+        width: 100%;
+        display: block;
+    }
+    .news_image {
+        width: 30%;
+        display: inline-block;
+    }
+
+     .news_header {
+        width: 65%;
+        display: inline-block;
+        font-size: 1.2em;
+        text-align: left;
+        margin: -20px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+
+    .header_title {
+        font-size: 1.0em;
+        margin: 0 0.25em 0 2em;
+        display: inline-block;
+        color: #212121;
+        text-align: center;
+    }
+
+    .main_container {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .central_image {
+        width: 100%;
+        text-align: center;
+        margin: -10px 0 -10px 0;
+    }
+
+    .news_item {
+        width: 100%;
+        display: block;
+    }
+
+    .news_image {
+        width: 30%;
+        display: inline-block;
+    }
+
+    .news_header {
+        width: 65%;
+        display: inline-block;
+        font-size: 1.2em;
+        text-align: left;
+        margin: -20px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 579px) {
+
+    .header_title {
+        font-size: 1.0em;
+        margin: 0 0.25em 0 2em;
+        display: inline-block;
+        color: #212121;
+        text-align: center;
+    }
+
+    .main_container {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .central_image {
+        width: 100%;
+        text-align: center;
+        margin: -10px 0 -10px 0;
+    }
+
+    .news_item {
+        width: 100%;
+        display: block;
+    }
+
+    .news_image {
+        width: 25%;
+        display: inline-block;
+    }
+
+    .news_header {
+        width: 65%;
+        display: inline-block;
+        font-size: 1.2em;
+        text-align: left;
+        margin: -20px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 640px) {
+
+    .header_title {
+        font-size: 1.0em;
+        margin: 0 0.25em 0 2em;
+        display: inline-block;
+        color: #212121;
+        text-align: center;
+    }
+
+    .main_container {
+        width: 100%;
+        height: 370px;
+        overflow: hidden;
+    }
+
+    .central_image {
+        width: 100%;
+        text-align: center;
+        margin: -40px 0 0 0;
+    }
+
+    .news_line {
+        width: 100%;
+     }
+
+     .news_item {
+        width: 30%;
+        display: inline-block;
+        margin: 0 5px 0 5px;
+    }
+
+    .news_image {
+        width: 100%;
+        display: block;
+    }
+
+    .news_header {
+        font-size: 1.1em;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 850px) {
+
+    body  {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
