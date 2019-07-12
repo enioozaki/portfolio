@@ -2,9 +2,9 @@
 Udacity Nanodegree Project
 
 ## Description
-Learning JS and CSS
+Learning CSS
 
 Working with responsive sites
 
 ## Tools
-JS and CSS
+CSS
